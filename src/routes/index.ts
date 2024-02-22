@@ -9,7 +9,14 @@ const routes = [
     path: "/products",
     name: "index",
     meta: { home: true },
-    component: () => import("./../App.vue"),
+    component: () => import("./../views/ProductsView.vue"),
+  },
+
+  {
+    path: "/home",
+    name: "Home",
+    meta: { home: false },
+    component: () => import("./../views/Homeview.vue"),
   },
 ];
 
