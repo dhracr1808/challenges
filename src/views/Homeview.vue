@@ -28,15 +28,12 @@
 <script setup lang="ts"></script>
 
 <style scoped>
-.home {
-  min-height: 100vh;
-}
 .container {
   background-color: yellow;
   display: grid;
-  grid-template-rows: 40vh max-content 1fr;
+  grid-template-rows: 40svh max-content 1fr;
   grid-template-columns: 1fr;
-  min-height: 100vh;
+  min-height: 100svh;
 }
 .container--image {
   background-color: yellowgreen;
