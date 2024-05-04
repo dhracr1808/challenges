@@ -4,6 +4,7 @@
       <img
         src="https://asset.gecdesigns.com/img/wallpapers/beautiful-fantasy-wallpaper-ultra-hd-wallpaper-4k-sr10012418-1706506236698-cover.webp"
         alt=""
+        loading="lazy"
       />
     </div>
     <div
@@ -72,7 +73,6 @@ bar.addEventListener("mousemove", (e: MouseEvent) => {
   --bg-hover-color: #f5f5f5;
   width: 100%;
   height: 100svh;
-  background-color: yellow;
   position: relative;
 }
 .galery__image {
