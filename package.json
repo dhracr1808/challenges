@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "install": "npm install",
+    "start": "node dist/"
   },
   "dependencies": {
     "swiper": "^11.0.7",
