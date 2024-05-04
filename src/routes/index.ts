@@ -18,6 +18,20 @@ const routes = [
     meta: { home: false },
     component: () => import("./../views/Homeview.vue"),
   },
+
+  {
+    path: "/galery",
+    name: "Galery",
+    meta: { home: false },
+    component: () => import("./../views/Galery.vue"),
+  },
+
+  {
+    path: "/carrosel",
+    name: "Carrosel",
+    meta: { home: false },
+    component: () => import("./../views/Carrosel.vue"),
+  },
 ];
 
 export const router = createRouter({ routes, history: createWebHistory() });
